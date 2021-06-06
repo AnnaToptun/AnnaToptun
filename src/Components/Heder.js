@@ -3,7 +3,7 @@ import { FormControl, Nav, Navbar, Form, Container, Button } from 'react-bootstr
 import logo from './logo1.png'
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 
-import Home from '../Pages/Home'
+
 import About from '../Pages/About'
 import Links from '../Pages/Link'
 import Photo from '../Pages/Photo'
@@ -30,7 +30,7 @@ export default class Heder extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="text-center">
-                                <Nav.Link href="/about"><span  className="text-header "> Про кафедру </span> </Nav.Link>
+                                <Nav.Link href="/"><span  className="text-header "> Про кафедру </span> </Nav.Link>
                                 <Nav.Link href="/link"><span  className="text-header"> Ресурси </span> </Nav.Link>
                                 <Nav.Link href="/photo"><span  className="text-header"> Фото </span></Nav.Link>
                                 <Nav.Link href="/contacts"><span  className="text-header"> Контакти </span></Nav.Link>
@@ -44,8 +44,8 @@ export default class Heder extends Component {
 
                 <Router>
                     <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/about" component={About}/>
+                        
+                        <Route exact path="/" component={About}/>
                         <Route exact path="/link" component={Links} />
                         <Route exact path="/photo" component={Photo} />
                         <Route exact path="/contacts" component={Contacts} />
