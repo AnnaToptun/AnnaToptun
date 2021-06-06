@@ -1,0 +1,283 @@
+.but:hover {
+    border: 5px solid #fff;
+    background: rgb(17, 1, 73);
+    color: #fff;
+}
+
+.h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    margin: 5px;
+    background: rgb(17, 1, 73);
+    border-radius: 15px;
+}
+
+.history-card {
+    width: 25%;
+    margin: 1px;
+}
+
+.but {
+    width: 85%;
+    height: 150px;
+    color: rgb(17, 1, 73);
+    background: #fff;
+    border: 5px solid rgb(17, 1, 73);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.link-link {
+    color: black;
+}
+
+.link-link:hover {
+    color: rgb(255, 250, 250);
+}
+
+.p {
+    text-indent: 3em;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.p-card {
+    text-indent: 2em;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.h1-card {
+    font-size: 14px;
+}
+
+.card-bg {
+    background: rgb(207, 203, 203);
+    color: rgb(0, 0, 0);
+}
+
+.table-title {
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.table-col-1 {
+    border-collapse: collapse;
+    border: 1px solid rgb(216, 215, 215);
+    font-size: 16px;
+    padding: 10px;
+    background: rgb(17, 1, 73);
+    color: #fff;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.table-col-2 {
+    border-collapse: collapse;
+    border: 2px solid rgb(219, 216, 230);
+    font-size: 16px;
+    padding: 18px;
+    width: 60%;
+    border-radius: 10px;
+    color: rgb(17, 1, 73);
+}
+
+.about-teach {
+    display: flex;
+}
+
+.img-carousel {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.img-carousel-1 {
+    display: block;
+    width: 100%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills-show.nav-link {
+    background: rgb(17, 1, 73);
+}
+
+.navbar {
+    background: rgb(17, 1, 73);
+}
+
+.card {
+    border: 5px solid rgb(153, 153, 153);
+    border-radius: 10px;
+}
+
+.text-header {
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.text-header:hover {
+    background: #fff;
+    color: rgb(17, 1, 73);
+    font-weight: bold;
+}
+
+.text-header:hover {
+    background: #fff;
+    color: rgb(17, 1, 73);
+    font-weight: bold;
+}
+
+.block-news {
+    margin: 50px auto;
+}
+
+.form-news {
+    display: flex;
+}
+
+.buttom-news {
+    width: 100%;
+}
+
+@media only screen and (max-width: 950px) {
+    .history-card {
+        width: 100%;
+        margin: 1px;
+    }
+    .about-teach {
+        flex-direction: column;
+    }
+    .table-col-1 {
+        border-collapse: collapse;
+        border: 1px solid rgb(216, 215, 215);
+        font-size: 14px;
+        padding: 10px;
+        background: rgb(17, 1, 73);
+        color: #fff;
+        width: 40%;
+        border-radius: 10px;
+    }
+    .table-col-2 {
+        border-collapse: collapse;
+        border: 2px solid rgb(219, 216, 230);
+        font-size: 14px;
+        padding: 10px;
+        width: 60%;
+        border-radius: 10px;
+        color: rgb(17, 1, 73);
+    }
+    .table-title {
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .p-card {
+        text-indent: 2em;
+        font-size: 16px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .h1-card {
+        font-size: 16px;
+    }
+    .but {
+        width: 100%;
+        height: 100px;
+        color: rgb(17, 1, 73);
+        background: #fff;
+        border: 5px solid rgb(17, 1, 73);
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        color: #fff;
+        margin: 5px;
+        background: rgb(17, 1, 73);
+        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .history-card {
+        width: 100%;
+        margin: 1px;
+    }
+    .about-teach {
+        display: block
+    }
+    .table-col-1 {
+        border-collapse: collapse;
+        border: 1px solid rgb(216, 215, 215);
+        font-size: 14px;
+        padding: 10px;
+        background: rgb(17, 1, 73);
+        color: #fff;
+        width: 40%;
+        border-radius: 10px;
+    }
+    .table-col-2 {
+        border-collapse: collapse;
+        border: 2px solid rgb(219, 216, 230);
+        font-size: 14px;
+        padding: 10px;
+        width: 60%;
+        border-radius: 10px;
+        color: rgb(17, 1, 73);
+    }
+    .table-title {
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .p-card {
+        text-indent: 2em;
+        font-size: 18px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .h1-card {
+        font-size: 18px;
+    }
+    .but {
+        width: 100%;
+        height: 100px;
+        color: rgb(17, 1, 73);
+        background: #fff;
+        border: 5px solid rgb(17, 1, 73);
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 20px;
+        margin: 1px;
+    }
+    h1 {
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        color: #fff;
+        margin: 5px;
+        background: rgb(17, 1, 73);
+        border-radius: 15px;
+    }
+}
+
+.header-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
