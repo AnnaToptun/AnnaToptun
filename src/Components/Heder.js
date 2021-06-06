@@ -12,8 +12,7 @@ import Ndoc from '../Pages/Ndoc'
 import Base from '../Pages/Base'
 export default class Heder extends Component {
     render() {
-        
-        
+               
         return (
             <>
                 <Navbar collapseOnSelect expand="md" variant="dark" className="navbar">
@@ -31,7 +30,7 @@ export default class Heder extends Component {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="text-center">
                                 <Nav.Link href="/"><span  className="text-header "> Про кафедру </span> </Nav.Link>
-                                <Nav.Link href="/links"><span  className="text-header"> Ресурси </span> </Nav.Link>
+                                <Nav.Link href="/res"><span  className="text-header"> Ресурси </span> </Nav.Link>
                                 <Nav.Link href="/photo"><span  className="text-header"> Фото </span></Nav.Link>
                                 <Nav.Link href="/contacts"><span  className="text-header"> Контакти </span></Nav.Link>
                                 <Nav.Link href="/ndoc"><span  className="text-header"> Нормативні документи </span></Nav.Link>
@@ -46,7 +45,7 @@ export default class Heder extends Component {
                     <Switch>
                         
                         <Route exact path="/" component={About}/>
-                        <Route exact path="/links" component={Links} />
+                        <Route exact path="/res" component={Links} />
                         <Route exact path="/photo" component={Photo} />
                         <Route exact path="/contacts" component={Contacts} />
                         <Route exact path="/ndoc" component={Ndoc} />
