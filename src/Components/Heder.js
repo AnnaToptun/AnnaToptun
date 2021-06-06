@@ -29,7 +29,7 @@ export default class Heder extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="text-center">
-                                <Nav.Link href="/about"><span  className="text-header "> Про кафедру </span> </Nav.Link>
+                                <Nav.Link href="/"><span  className="text-header "> Про кафедру </span> </Nav.Link>
                                 <Nav.Link href="/res"><span  className="text-header"> Ресурси </span> </Nav.Link>
                                 <Nav.Link href="/photo"><span  className="text-header"> Фото </span></Nav.Link>
                                 <Nav.Link href="/contacts"><span  className="text-header"> Контакти </span></Nav.Link>
@@ -44,7 +44,7 @@ export default class Heder extends Component {
                 <Router>
                     <Switch>
                         
-                        <Route exact path="/about" component={About}/>
+                        <Route exact path="/" component={About}/>
                         <Route exact path="/res" component={Links} />
                         <Route exact path="/photo" component={Photo} />
                         <Route exact path="/contacts" component={Contacts} />
