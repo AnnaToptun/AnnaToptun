@@ -32,39 +32,23 @@ export default class History extends Component {
                 </div>
                 <div> 
                     <CardDeck className="about-teach">
-                        <div className="history-card ">
-                            <Card bg="light" className="mt-3">
-                                <img 
-                                    className="p-1"
-                                    variant="top" 
-                                    src={bmo}
-                                />
-                                <Card.Title className='text-center bg-blue'>БОНДАРЕНКО <br></br> Масим Олексійович</Card.Title> <hr />
-                                <Card.Text>
-                                    <p className="p-card">Доцент, доктор технічних наук, завідувач кафедри приладобудування, 
-                                    мехатроніки та комп'ютеризованих технологій з вересня 2020 року</p>
-                                    
-                                    
-                                </Card.Text>
-                                
-                            </Card>
-                        </div>
-                        <div className="history-card" >
+                         <div className="history-card">
                             <Card bg="dark" text="light" className="mt-3">
                                 <img 
                                     className="p-1"
                                     variant="top" 
-                                    src={bjj}
+                                    src={bvi}
                                 />
-                                <Card.Title className='text-center'>БОНДАРЕНКО <br></br>Юлія Юріївна</Card.Title> <hr />
+                                <Card.Title className='text-center' >БИКОВ<br></br>  Валентин Іванович.</Card.Title><hr />
                                 <Card.Text>
-                                    <p className="p-card">Професор, кандидат технічних наук, завідувач кафедри приладобудування, 
-                                    мехатроніки та комп'ютеризованих технологій з 2016 року по серпень 2020 року</p>
-                                    
+                                    <p className="p-card">Професор, доктор технічних наук, завідувач кафедри Прилади точної механіки 
+                                     з 1988 по 1999 рік. 
+                                       <br /> Заслужений діяч науки і техніки УРСР</p>
                                 </Card.Text>
-                                
                             </Card>
+                            
                         </div>
+                        
                         <div className="history-card">
                             <Card bg="dark" text="light" className="mt-3">
                                 <img 
@@ -80,19 +64,37 @@ export default class History extends Component {
                                 </Card.Text>
                             </Card>
                         </div>
-                        <div className="history-card">
+                       <div className="history-card" >
                             <Card bg="dark" text="light" className="mt-3">
                                 <img 
                                     className="p-1"
                                     variant="top" 
-                                    src={bvi}
+                                    src={bjj}
                                 />
-                                <Card.Title className='text-center' >БИКОВ<br></br>  Валентин Іванович.</Card.Title><hr />
+                                <Card.Title className='text-center'>БОНДАРЕНКО <br></br>Юлія Юріївна</Card.Title> <hr />
                                 <Card.Text>
-                                    <p className="p-card">Професор, доктор технічних наук, завідувач кафедри Прилади точної механіки 
-                                     з 1988 по 1999 рік. 
-                                       <br /> Заслужений діяч науки і техніки УРСР</p>
+                                    <p className="p-card">Професор, кандидат технічних наук, завідувач кафедри приладобудування, 
+                                    мехатроніки та комп'ютеризованих технологій з 2016 року по серпень 2020 року</p>
+                                    
                                 </Card.Text>
+                                
+                            </Card>
+                        </div>
+                        <div className="history-card ">
+                            <Card bg="light" className="mt-3">
+                                <img 
+                                    className="p-1"
+                                    variant="top" 
+                                    src={bmo}
+                                />
+                                <Card.Title className='text-center bg-blue'>БОНДАРЕНКО <br></br> Масим Олексійович</Card.Title> <hr />
+                                <Card.Text>
+                                    <p className="p-card">Доцент, доктор технічних наук, завідувач кафедри приладобудування, 
+                                    мехатроніки та комп'ютеризованих технологій з вересня 2020 року</p>
+                                    
+                                    
+                                </Card.Text>
+                                
                             </Card>
                         </div>
                         
