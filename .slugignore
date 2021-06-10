@@ -1,3 +1,2 @@
-*.psd
-*.pdf
-public
+*.json
+node_modules
