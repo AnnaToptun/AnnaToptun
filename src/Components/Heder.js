@@ -17,7 +17,7 @@ export default class Heder extends Component {
             <>
                 <Navbar collapseOnSelect expand="md" variant="dark" className="navbar">
                     <Container className="header-container">
-                        <Navbar.Brand href="/about">
+                        <Navbar.Brand>
                             <img
                                 src={logo}
                                 height="50"
